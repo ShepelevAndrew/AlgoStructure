@@ -1,6 +1,6 @@
 ﻿namespace Core.Algorithm;
 
-public class AlgorithmBase<T>
+public class AlgorithmBase<T> where T: IComparable<T>
 {
     public List<T> Items { get; set; }
 
