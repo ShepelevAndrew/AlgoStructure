@@ -5,7 +5,7 @@ namespace Algoritm.Unit;
 [TestClass]
 public class SortsTests
 {
-    private List<int> _list = null!;
+    private IList<int> _list = null!;
     private const int AmountOfNumbers = 10000;
     private const int From = 0;
     private const int To = 10000;
@@ -17,6 +17,7 @@ public class SortsTests
         var rnd = new Random();
         for(int i = 0; i < AmountOfNumbers; i++) {
             _list.Add(rnd.Next(From, To));
+            // _list[i] = rnd.Next(From, To); For arrays
         }
 
     }

@@ -2,7 +2,7 @@ namespace Core.Algorithm;
 
 public class BubbleSort<T> : AlgorithmBase<T> where T: IComparable<T>
 {
-    public BubbleSort(List<T> list) : base(list) {}
+    public BubbleSort(IList<T> list) : base(list) {}
 
     public override void Sort()
     {

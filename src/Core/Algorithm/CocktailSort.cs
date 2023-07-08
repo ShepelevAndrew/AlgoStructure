@@ -2,7 +2,7 @@ namespace Core.Algorithm;
 
 public class CocktailSort<T> : AlgorithmBase<T> where T: IComparable<T>
 {
-    public CocktailSort(List<T> list) : base(list) { }
+    public CocktailSort(IList<T> list) : base(list) { }
 
     public override void Sort()
     {

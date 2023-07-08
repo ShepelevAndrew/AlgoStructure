@@ -2,7 +2,7 @@ namespace Core.Algorithm;
 
 public class ShellSort<T> : AlgorithmBase<T> where T: IComparable<T>
 {
-    public ShellSort(List<T> list) : base(list) { }
+    public ShellSort(IList<T> list) : base(list) { }
 
     public override void Sort()
     {

@@ -4,9 +4,9 @@ namespace Core.Algorithm;
 
 public class AlgorithmBase<T> where T: IComparable<T>
 {
-    public List<T> Items { get; set; }
+    public IList<T> Items { get; set; }
 
-    public AlgorithmBase(List<T> items)
+    public AlgorithmBase(IList<T> items)
     {
         Items = items;
     }
@@ -22,7 +22,7 @@ public class AlgorithmBase<T> where T: IComparable<T>
     }
 
     public virtual void Sort() {
-        Items.Sort();
+        // TODO: quick sort as base
     }
 
     protected void Swop(int posA, int posB) {

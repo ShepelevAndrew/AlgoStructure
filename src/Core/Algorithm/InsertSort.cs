@@ -2,7 +2,7 @@ namespace Core.Algorithm;
 
 public class InsertSort<T> : AlgorithmBase<T> where T: IComparable<T>
 {
-    public InsertSort(List<T> list) : base(list) { }
+    public InsertSort(IList<T> list) : base(list) { }
 
     public override void Sort()
     {
