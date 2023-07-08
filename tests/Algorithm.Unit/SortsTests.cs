@@ -96,4 +96,19 @@ public class SortsTests
             Assert.AreEqual(listSort[i], treeSort.Items[i]);
         }
     }
+
+    [TestMethod]
+    public void SelectionSortTest()
+    {
+        var selectionSort = new SelectionSort<int>(_list);
+        var listSort = new List<int>(_list);
+
+        var time = selectionSort.SortAndGetTime();
+        Console.WriteLine("Time of selection sort: " + time);
+        listSort.Sort();
+
+        for(int i = 0; i < _list.Count; i++) {
+            Assert.AreEqual(listSort[i], selectionSort.Items[i]);
+        }
+    }
 }

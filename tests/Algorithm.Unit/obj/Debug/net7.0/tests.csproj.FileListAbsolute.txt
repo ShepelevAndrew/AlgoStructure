@@ -100,3 +100,5 @@ Q:\GitHub\AlgoStructure\tests\Algorithm.Unit\obj\Debug\net7.0\ref\tests.dll
 q:\GitHub\AlgoStructure\tests\Algorithm.Unit\bin\Debug\net7.0\CoverletSourceRootsMapping
 q:\GitHub\AlgoStructure\tests\Algorithm.Unit\bin\Debug\net7.0\AlgoStructure.dll
 q:\GitHub\AlgoStructure\tests\Algorithm.Unit\bin\Debug\net7.0\AlgoStructure.pdb
+q:\GitHub\AlgoStructure\tests\Algorithm.Unit\bin\Debug\net7.0\DataStructure.dll
+q:\GitHub\AlgoStructure\tests\Algorithm.Unit\bin\Debug\net7.0\DataStructure.pdb
