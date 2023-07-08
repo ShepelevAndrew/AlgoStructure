@@ -1,0 +1,12 @@
+q:\GitHub\AlgoStructure\src\Core\DataStructure\bin\Debug\net7.0\DataStructure.deps.json
+q:\GitHub\AlgoStructure\src\Core\DataStructure\bin\Debug\net7.0\DataStructure.dll
+q:\GitHub\AlgoStructure\src\Core\DataStructure\bin\Debug\net7.0\DataStructure.pdb
+q:\GitHub\AlgoStructure\src\Core\DataStructure\obj\Debug\net7.0\DataStructure.csproj.AssemblyReference.cache
+q:\GitHub\AlgoStructure\src\Core\DataStructure\obj\Debug\net7.0\DataStructure.GeneratedMSBuildEditorConfig.editorconfig
+q:\GitHub\AlgoStructure\src\Core\DataStructure\obj\Debug\net7.0\DataStructure.AssemblyInfoInputs.cache
+q:\GitHub\AlgoStructure\src\Core\DataStructure\obj\Debug\net7.0\DataStructure.AssemblyInfo.cs
+q:\GitHub\AlgoStructure\src\Core\DataStructure\obj\Debug\net7.0\DataStructure.csproj.CoreCompileInputs.cache
+q:\GitHub\AlgoStructure\src\Core\DataStructure\obj\Debug\net7.0\DataStructure.dll
+q:\GitHub\AlgoStructure\src\Core\DataStructure\obj\Debug\net7.0\refint\DataStructure.dll
+q:\GitHub\AlgoStructure\src\Core\DataStructure\obj\Debug\net7.0\DataStructure.pdb
+q:\GitHub\AlgoStructure\src\Core\DataStructure\obj\Debug\net7.0\ref\DataStructure.dll
