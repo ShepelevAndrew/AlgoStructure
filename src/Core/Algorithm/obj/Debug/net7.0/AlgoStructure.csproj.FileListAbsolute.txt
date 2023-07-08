@@ -22,3 +22,6 @@ Q:\GitHub\AlgoStructure\src\Core\Algorithm\obj\Debug\net7.0\AlgoStructure.dll
 Q:\GitHub\AlgoStructure\src\Core\Algorithm\obj\Debug\net7.0\refint\AlgoStructure.dll
 Q:\GitHub\AlgoStructure\src\Core\Algorithm\obj\Debug\net7.0\AlgoStructure.pdb
 Q:\GitHub\AlgoStructure\src\Core\Algorithm\obj\Debug\net7.0\ref\AlgoStructure.dll
+q:\GitHub\AlgoStructure\src\Core\Algorithm\bin\Debug\net7.0\DataStructure.dll
+q:\GitHub\AlgoStructure\src\Core\Algorithm\bin\Debug\net7.0\DataStructure.pdb
+q:\GitHub\AlgoStructure\src\Core\Algorithm\obj\Debug\net7.0\AlgoStructure.csproj.CopyComplete

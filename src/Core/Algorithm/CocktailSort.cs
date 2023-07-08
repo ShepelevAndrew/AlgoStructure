@@ -1,6 +1,6 @@
 namespace Core.Algorithm;
 
-public class CocktailSort<T> : AlgorithmBase<T> where T: IComparable<T>
+public class CocktailSort<T> : AlgorithmBase<T> where T: IComparable, IComparable<T>
 {
     public CocktailSort(IList<T> list) : base(list) { }
 

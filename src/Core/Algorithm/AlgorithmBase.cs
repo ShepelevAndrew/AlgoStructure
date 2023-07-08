@@ -2,7 +2,7 @@
 
 namespace Core.Algorithm;
 
-public class AlgorithmBase<T> where T: IComparable<T>
+public class AlgorithmBase<T> where T: IComparable, IComparable<T>
 {
     public IList<T> Items { get; set; }
 

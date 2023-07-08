@@ -1,6 +1,6 @@
 namespace Core.Algorithm;
 
-public class BubbleSort<T> : AlgorithmBase<T> where T: IComparable<T>
+public class BubbleSort<T> : AlgorithmBase<T> where T: IComparable, IComparable<T>
 {
     public BubbleSort(IList<T> list) : base(list) {}
 

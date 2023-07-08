@@ -1,6 +1,6 @@
 namespace Core.Algorithm;
 
-public class ShellSort<T> : AlgorithmBase<T> where T: IComparable<T>
+public class ShellSort<T> : AlgorithmBase<T> where T: IComparable, IComparable<T>
 {
     public ShellSort(IList<T> list) : base(list) { }
 
