@@ -1,6 +1,6 @@
 using Core.Algorithm;
 
-namespace tests;
+namespace Algoritm.Unit;
 
 [TestClass]
 public class UnitTest1

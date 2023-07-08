@@ -3,7 +3,7 @@ using Core.Algorithm;
 namespace Algoritm.Unit;
 
 [TestClass]
-public class CocktailSortTests
+public class InsertSortTests
 {
     [TestMethod]
     public void SortTest()
@@ -15,14 +15,14 @@ public class CocktailSortTests
             list.Add(rnd.Next(0, 1000));
         }
 
-        var cocktailSort = new CocktailSort<int>(list);
+        var insertSort = new InsertSort<int>(list);
         var listSort = new List<int>(list);
 
-        cocktailSort.Sort();
+        insertSort.Sort();
         listSort.Sort();
 
         for(int i = 0; i < list.Count; i++) {
-            Assert.AreEqual(listSort[i], cocktailSort.Items[i]);
+            Assert.AreEqual(listSort[i], insertSort.Items[i]);
         }
     }
 }
