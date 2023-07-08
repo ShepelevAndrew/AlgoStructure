@@ -1,4 +1,6 @@
-﻿namespace Core.Algorithm;
+﻿using System.Diagnostics;
+
+namespace Core.Algorithm;
 
 public class AlgorithmBase<T> where T: IComparable<T>
 {
@@ -7,6 +9,16 @@ public class AlgorithmBase<T> where T: IComparable<T>
     public AlgorithmBase(List<T> items)
     {
         Items = items;
+    }
+
+    public TimeSpan SortAndGetTime() {
+        var timer = new Stopwatch();
+
+        timer.Start();
+        Sort();
+        timer.Stop();
+
+        return timer.Elapsed;
     }
 
     public virtual void Sort() {
