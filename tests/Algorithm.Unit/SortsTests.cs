@@ -81,4 +81,19 @@ public class SortsTests
             Assert.AreEqual(listSort[i], shellSort.Items[i]);
         }
     }
+
+    [TestMethod]
+    public void TreeSortTest()
+    {
+        var treeSort = new TreeSort<int>(_list);
+        var listSort = new List<int>(_list);
+
+        var time = treeSort.SortAndGetTime();
+        Console.WriteLine("Time of tree sort: " + time);
+        listSort.Sort();
+
+        for(int i = 0; i < _list.Count; i++) {
+            Assert.AreEqual(listSort[i], treeSort.Items[i]);
+        }
+    }
 }
