@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgoStructure", "src\Core\A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tests", "tests\Algorithm.Unit\tests.csproj", "{A3819423-C53E-4873-99BB-F97E98F74154}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0D646314-E0DC-4B97-870B-3F802CB309E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{5A43C5A9-94A3-45E9-BCF0-5820B64C0B25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructure", "src\Core\DataStructure\DataStructure.csproj", "{2194A0D5-C66E-46AD-92E0-165D56C35C01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +30,13 @@ Global
 		{A3819423-C53E-4873-99BB-F97E98F74154}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3819423-C53E-4873-99BB-F97E98F74154}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3819423-C53E-4873-99BB-F97E98F74154}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2194A0D5-C66E-46AD-92E0-165D56C35C01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2194A0D5-C66E-46AD-92E0-165D56C35C01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2194A0D5-C66E-46AD-92E0-165D56C35C01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2194A0D5-C66E-46AD-92E0-165D56C35C01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5A43C5A9-94A3-45E9-BCF0-5820B64C0B25} = {0D646314-E0DC-4B97-870B-3F802CB309E4}
+		{2194A0D5-C66E-46AD-92E0-165D56C35C01} = {5A43C5A9-94A3-45E9-BCF0-5820B64C0B25}
 	EndGlobalSection
 EndGlobal

@@ -2,7 +2,7 @@
 
 public class Tree<T> where T: IComparable, IComparable<T>
 {
-    public Node<T> Root { get; private set; }
+    public Node<T>? Root { get; private set; }
     public int Count { get; private set; }
 
     public Tree() { }

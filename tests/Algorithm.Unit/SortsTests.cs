@@ -6,9 +6,9 @@ namespace Algoritm.Unit;
 public class SortsTests
 {
     private IList<int> _list = null!;
-    private const int AmountOfNumbers = 10000;
+    private const int AmountOfNumbers = 100000;
     private const int From = 0;
-    private const int To = 10000;
+    private const int To = 1000;
 
     [TestInitialize]
     public void Initialize() {
@@ -109,6 +109,21 @@ public class SortsTests
 
         for(int i = 0; i < _list.Count; i++) {
             Assert.AreEqual(listSort[i], selectionSort.Items[i]);
+        }
+    }
+
+    [TestMethod]
+    public void GnomeSortTest()
+    {
+        var gnomeSort = new GnomeSort<int>(_list);
+        var listSort = new List<int>(_list);
+
+        var time = gnomeSort.SortAndGetTime();
+        Console.WriteLine("Time of gnome sort: " + time);
+        listSort.Sort();
+
+        for(int i = 0; i < _list.Count; i++) {
+            Assert.AreEqual(listSort[i], gnomeSort.Items[i]);
         }
     }
 }

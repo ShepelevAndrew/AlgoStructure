@@ -4,8 +4,8 @@ public class Node<T> : IComparable<T>, IComparable
     where T: IComparable, IComparable<T>
 {
     public T Data { get; private set; }
-    public Node<T> Left { get; private set; }
-    public Node<T> Right { get; private set; }
+    public Node<T>? Left { get; private set; }
+    public Node<T>? Right { get; private set; }
 
     public Node(T data)
     {
